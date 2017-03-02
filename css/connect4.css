@@ -1,0 +1,76 @@
+#board {
+	background-color: blue;
+	padding: 5px 5px 20px 5px;
+}
+#selection:hover {
+	border: 1px yellow solid;
+	border-radius: 5px;
+	position: static;
+}
+
+#board td {
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	background-color: white;
+	border: solid black 1 px;
+
+
+}
+#board {
+	position: relative;
+	float: left;
+}
+
+#board td:hover {
+	background-color: grey;
+}
+
+
+#board td.yellow {
+	background-color: yellow;
+}
+
+#board td.red {
+	background-color: red;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.red {
+	background-color: red;
+}
+
+#resetBtn {
+	float: right;
+	position: relative;
+	top: 20px;
+	right: 20px;
+	height: 50px;
+	width: 100px;
+
+}
+
+p {
+	font-size: 24px;
+	float:left;
+	margin-left:  50px;
+}
+
+.hide {
+	display:none;
+}
+
+#settings {
+	font-size: 18px;
+	padding: 10px 30px;
+	position: relative;
+
+}
+
+#settings td{
+	width: 100px;
+}
+

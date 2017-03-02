@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Connect 4</title>
+	<link rel="stylesheet" type="text/css" href="css/connect4.css">
+	
+</head>
+<body>
+
+
+<!-- <table id="selection">
+</table> -->
+
+<table id="board">
+</table>
+
+<div>
+	<table id="settings">
+		<tbody>
+			<tr>
+				<td>width:</td>
+				<td>height:</td>
+				<td>win:</td>
+				<td>players:</td>
+			</tr>
+			<tr>
+				<td><input type="number" name="width" min="3" max="10" value="7"></td>
+				<td><input type="number" name="height" min="3" max="10" value="6"></td>
+				<td><input type="number" name="winLength" min="3" max="7" value="4"></td>
+				<td><input type="number" name="players" min="1" max="2" value="2"></td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+<button id="resetBtn">Reset</button>
+
+<p id="message">turn: <span id="turn" class="yellow">Yellow</span></p>
+<p id=winMessage class="hide">somebody won</p>
+
+<script type="text/javascript" src="scripts/connect4.js"></script>
+</body>
+</html>
